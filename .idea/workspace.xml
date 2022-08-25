@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f89e33d-18f8-40f4-920f-46915143dc54" name="Changes" comment="">
+    <list default="true" id="4f89e33d-18f8-40f4-920f-46915143dc54" name="Changes" comment="thursday implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DemoLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DemoLambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +70,14 @@
       <option name="presentableId" value="Default" />
       <updated>1661323936374</updated>
     </task>
+    <task id="LOCAL-00001" summary="thursday implementation">
+      <created>1661413976461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661413976461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="thursday implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="thursday implementation" />
   </component>
 </project>

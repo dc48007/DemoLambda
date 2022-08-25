@@ -29,11 +29,11 @@ interface implementLambda{
 
 public class DemoLambda {
 
-
-    implementLambda implementLambda =  (fdhd)-> {
-            return fdhd.execute();
-        };
-
+implementLambda implementLambda =  new implementLambda() {
+    @Override public String execute(WithReturnType fhsdfhd) {
+        return fhsdfhd.execute();
+    }
+}  ;
 
 
     UsingGenerics<Integer, String> usingGenerics = new UsingGenerics<Integer, String>() {
@@ -54,7 +54,7 @@ public class DemoLambda {
         new DemoLambda().withNoReturnType.apply();
         System.out.println(new DemoLambda().withReturnType.execute());
         System.out.println(new DemoLambda().usingGenerics.implement(123873463));
-       // new DemoLambda().implementLambda.execute(gd-> {return  gd;});
+        System.out.println(new DemoLambda().implementLambda.execute(()-> "This is lambda impemented" ));;
 
         HashMap<String, Integer> hashMap = new HashMap<>();
         hashMap.put("Nitin", 1234);
